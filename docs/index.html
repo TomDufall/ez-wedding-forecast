@@ -1,97 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EZ Wedding Forecast</title>
     <style>
-      :root {
-        --bg: #f7f3ec;
-        --card: #fffaf2;
-        --text: #2e2a25;
-        --accent: #8f5a3c;
-      }
+        :root {
+            --bg: #f7f3ec;
+            --card: #fffaf2;
+            --text: #2e2a25;
+            --accent: #8f5a3c;
+        }
 
-      * {
-        box-sizing: border-box;
-      }
+        * {
+            box-sizing: border-box;
+        }
 
-      body {
-        margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
-        color: var(--text);
-        background:
-          radial-gradient(circle at 10% 20%, #fff4df 0%, transparent 35%),
-          radial-gradient(circle at 80% 10%, #ffe8d0 0%, transparent 30%),
-          var(--bg);
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-      }
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at 10% 20%, #fff4df 0%, transparent 35%),
+                radial-gradient(circle at 80% 10%, #ffe8d0 0%, transparent 30%),
+                var(--bg);
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+        }
 
-      main {
-        width: min(680px, 92vw);
-        background: var(--card);
-        border: 1px solid #eadfce;
-        border-radius: 16px;
-        padding: 2rem;
-        box-shadow: 0 20px 40px rgba(68, 45, 25, 0.08);
-      }
+        main {
+            width: min(680px, 92vw);
+            background: var(--card);
+            border: 1px solid #eadfce;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(68, 45, 25, 0.08);
+        }
 
-      h1 {
-        margin-top: 0;
-        color: var(--accent);
-      }
+        h1 {
+            margin-top: 0;
+            color: var(--accent);
+        }
 
-      code {
-        background: #f1e4d3;
-        padding: 0.2rem 0.4rem;
-        border-radius: 4px;
-      }
+        code {
+            background: #f1e4d3;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+        }
 
-      .value {
-        font-size: 1.1rem;
-        font-weight: 700;
-      }
+        .value {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
 
-      .error {
-        color: #a10000;
-      }
+        .error {
+            color: #a10000;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <main>
-      <h1>EZ Wedding Forecast</h1>
-      <p>
-        JSON endpoint: <code>/json</code>
-      </p>
-      <p>
-        Config value from JSON: <span id="config-value" class="value">Loading...</span>
-      </p>
-      <p id="status" class="error" hidden></p>
+        <h1>EZ Wedding Forecast</h1>
+        <p>
+            JSON endpoint: <code>/json</code>
+        </p>
+        <p>
+            Config value from JSON: <span id="config-value" class="value">Loading...</span>
+        </p>
+        <p id="status" class="error" hidden></p>
     </main>
 
     <script>
-      async function loadConfig() {
-        const valueEl = document.getElementById("config-value");
-        const statusEl = document.getElementById("status");
+        async function loadConfig() {
+            const valueEl = document.getElementById("config-value");
+            const statusEl = document.getElementById("status");
 
-        try {
-          const response = await fetch("json", { cache: "no-store" });
-          if (!response.ok) {
-            throw new Error("Request failed with status " + response.status);
-          }
+            try {
+                const response = await fetch("json", { cache: "no-store" });
+                if (!response.ok) {
+                    throw new Error("Request failed with status " + response.status);
+                }
 
-          const data = await response.json();
-          valueEl.textContent = String(data.siteMessage ?? "(missing siteMessage)");
-        } catch (error) {
-          valueEl.textContent = "Unavailable";
-          statusEl.hidden = false;
-          statusEl.textContent = "Could not load /json: " + error.message;
+                const data = await response.json();
+                valueEl.textContent = String(data.siteMessage ?? "(missing siteMessage)");
+            } catch (error) {
+                valueEl.textContent = "Unavailable";
+                statusEl.hidden = false;
+                statusEl.textContent = "Could not load /json: " + error.message;
+            }
         }
-      }
 
-      loadConfig();
+        loadConfig();
     </script>
-  </body>
+</body>
+
 </html>
