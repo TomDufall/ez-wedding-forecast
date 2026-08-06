@@ -1,13 +1,8 @@
 {
   "global_spot_daily": {
     "model": "global_spot_daily",
-    "modelRunDate": "2026-08-06T13:00Z",
+    "modelRunDate": "2026-08-06T14:00Z",
     "timeSeries": [
-      {
-        "time": "2026-08-05T00:00:00+00:00",
-        "temperature_max": 31.83,
-        "temperature_min": 28.84
-      },
       {
         "time": "2026-08-06T00:00:00+00:00",
         "temperature_max": 26.74,

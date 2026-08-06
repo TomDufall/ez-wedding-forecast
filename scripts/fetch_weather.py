@@ -11,6 +11,7 @@ import json
 import os
 import sys
 from datetime import datetime
+import logging
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen
@@ -21,6 +22,8 @@ import requests
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
 
+logging.basicConfig(level = os.getenv("LOGLEVEL", "INFO"))
+logger = logging.getLogger(__name__)
 
 def load_env_file(path: Path) -> None:
     """Load KEY=VALUE pairs from a .env-style file into the environment."""
@@ -104,8 +107,14 @@ def get_global_spot_daily(api_key: str, lat: float, lon: float) -> dict:
     # Extract data, e.g. convert 'midday' to an actual timestamp
     # Example response at /example_payloads/global_spot_daily.geojson
     model_run_date = data["features"][0]["properties"]["modelRunDate"]
+    logger.info(f"Global spot model run '{model_run_date}' retrieved with {len(data['features'][0]['properties']['timeSeries'])} time series entries")
     global_spot_daily_data = []
+
     for ts in data["features"][0]["properties"]["timeSeries"]:
+        # Daytime parameters are excluded from the first timestep if the model run time is after midday
+        if not "dayUpperBoundMaxFeelsLikeTemp" in ts or not "dayLowerBoundMaxFeelsLikeTemp" in ts:
+            logger.info(f"Skipping global spot timestep {ts['time']} due to missing daytime parameters")
+            continue
         base_dt = datetime.fromisoformat(ts["time"].replace("Z", "+00:00"))
         global_spot_daily_data.append(
             {
