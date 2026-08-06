@@ -8,6 +8,8 @@ on:
 jobs:
   update-weather-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       WEATHER_API_KEY_SPOT: ${{ secrets.WEATHER_API_KEY_SPOT }}
       WEATHER_API_KEY_BPF: ${{ secrets.WEATHER_API_KEY_BPF }}
@@ -15,9 +17,6 @@ jobs:
       WEATHER_LOCATION_BPF_LOCATION_ID: ${{ secrets.WEATHER_LOCATION_BPF_LOCATION_ID }}
       WEATHER_LOCATION_LAT: ${{ secrets.WEATHER_LOCATION_LAT }}
       WEATHER_LOCATION_LON: ${{ secrets.WEATHER_LOCATION_LON }}
-
-      permissions:
-        contents: write
 
     steps:
       - name: Check out repository
