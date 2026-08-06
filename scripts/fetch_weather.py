@@ -10,15 +10,16 @@ import argparse
 import json
 import os
 import sys
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
+import requests
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_OUTPUT = REPO_ROOT / "docs" / "json"
-# .invalid is a reserved TLD that never resolves publicly.
-DEFAULT_API_BASE_URL = "https://weather-api.example.invalid/v1/current.json"
+DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
 
 
 def load_env_file(path: Path) -> None:
@@ -48,14 +49,29 @@ def parse_args() -> argparse.Namespace:
         help="Location query used by the weather API (default: WEATHER_LOCATION or London)",
     )
     parser.add_argument(
-        "--api-base-url",
-        default=os.environ.get("WEATHER_API_BASE_URL", DEFAULT_API_BASE_URL),
-        help="Weather API endpoint base URL",
+        "--lat",
+        default=os.environ.get("WEATHER_LOCATION_LAT", "0"),
+        help="Latitude for the weather API (default: WEATHER_LOCATION_LAT or 0)",
     )
     parser.add_argument(
-        "--out",
-        default=str(DEFAULT_OUTPUT),
-        help="Output JSON file path (default: docs/json)",
+        "--lon",
+        default=os.environ.get("WEATHER_LOCATION_LON", "0"),
+        help="Longitude for the weather API (default: WEATHER_LOCATION_LON or 0)",
+    )
+    parser.add_argument(
+        "--bpf-collection",
+        default=os.environ.get("WEATHER_LOCATION_BPF_COLLECTION"),
+        help="Collection name for the BPF API (default: WEATHER_LOCATION_BPF_COLLECTION)",
+    )
+    parser.add_argument(
+        "--bpf-location-id",
+        default=os.environ.get("WEATHER_LOCATION_BPF_LOCATION_ID"),
+        help="Location ID for the BPF API (default: WEATHER_LOCATION_BPF_LOCATION_ID)",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default=str(DEFAULT_OUTPUT_DIR),
+        help="Output JSON directory (default: docs/)",
     )
     parser.add_argument(
         "--timeout",
@@ -66,30 +82,75 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def fetch_weather(api_base_url: str, api_key: str, location: str, timeout: int) -> dict:
-    params = urlencode({"key": api_key, "q": location})
-    request_url = f"{api_base_url}?{params}"
-
-    with urlopen(request_url, timeout=timeout) as response:  # nosec B310
-        payload = response.read().decode("utf-8")
-    return json.loads(payload)
-
-
-def build_site_payload(raw: dict, fallback_location: str) -> dict:
-    location = raw.get("location", {}).get("name", fallback_location)
-    current = raw.get("current", {})
-    condition = current.get("condition", {}).get("text", "Unknown")
-    temp_c = current.get("temp_c", "?")
-
-    return {
-        "siteMessage": f"Weather for {location}: {temp_c}C, {condition}",
-        "weather": {
-            "location": location,
-            "temperatureC": temp_c,
-            "condition": condition,
-            "lastUpdated": current.get("last_updated", ""),
+def fetch_global_spot_daily(api_key: str, lat: float, lon: float) -> dict:
+    api_base_url = "https://data.hub.api.metoffice.gov.uk/sitespecific/v0"
+    url = f"{api_base_url}/point/daily"
+    response = requests.get(
+        url,
+        params={
+            "dataSource": "BD1",
+            "includeLocationName": "true",
+            "latitude": lat,
+            "longitude": lon,
         },
+        headers={"apikey": api_key},
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def get_global_spot_daily(api_key: str, lat: float, lon: float) -> dict:
+    data = fetch_global_spot_daily(api_key, lat, lon)
+    # Extract data, e.g. convert 'midday' to an actual timestamp
+    # Example response at /example_payloads/global_spot_daily.geojson
+    model_run_date = data["features"][0]["properties"]["modelRunDate"]
+    global_spot_daily_data = []
+    for ts in data["features"][0]["properties"]["timeSeries"]:
+        base_dt = datetime.fromisoformat(ts["time"].replace("Z", "+00:00"))
+        global_spot_daily_data.append(
+            {
+                "time": base_dt.isoformat(),
+                "temperature_max": ts["dayUpperBoundMaxFeelsLikeTemp"],
+                "temperature_min": ts["dayLowerBoundMaxFeelsLikeTemp"],
+            }
+        )
+    d = {
+        "model": "global_spot_daily",
+        "modelRunDate": model_run_date,
+        "timeSeries": global_spot_daily_data,
     }
+    return d
+
+
+def update_data_payload(api_key: str, lat: float, lon: float, output_dir: Path) -> None:
+    global_spot_daily_data = get_global_spot_daily(api_key, lat, lon)
+
+    d = {"global_spot_daily": global_spot_daily_data}
+    out_path = output_dir / "global_spot_daily.geojson"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(d, indent=2), encoding="utf-8")
+    print(f"Wrote global spot daily JSON to {out_path}")
+
+
+def get_bpf_percentiles(api_key: str, collection: str, location_id: str) -> dict:
+    api_base_url = "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0"
+    url = f"{api_base_url}/collections/{collection}/locations/{location_id}"
+    response = requests.get(
+        url,
+        headers={"apikey": api_key},
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def update_bpf_data(
+    api_key: str, collection: str, location_id: str, output_dir: Path
+) -> None:
+    data = get_bpf_percentiles(api_key, collection, location_id)
+    out_path = output_dir / f"{collection}-point.geojson"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    print(f"Wrote BPF percentiles JSON to {out_path}")
 
 
 def main() -> int:
@@ -98,33 +159,36 @@ def main() -> int:
     load_env_file(REPO_ROOT / ".env")
 
     args = parse_args()
-    api_key = os.environ.get("WEATHER_API_KEY", "").strip()
-    if not api_key:
+    spot_api_key = os.environ.get("WEATHER_API_KEY_SPOT", "").strip()
+    if not spot_api_key:
         print(
-            "Missing WEATHER_API_KEY. Set it in your environment or .env.local (never commit secrets).",
+            "Missing WEATHER_API_KEY_SPOT. Set it in your environment or .env.local (never commit secrets).",
             file=sys.stderr,
         )
         return 1
-
-    if "example.invalid" in args.api_base_url:
+    bpf_api_key = os.environ.get("WEATHER_API_KEY_BPF", "").strip()
+    if not bpf_api_key:
         print(
-            "WEATHER_API_BASE_URL is still using the placeholder domain. "
-            "Set a real API endpoint in .env.local or environment variables.",
+            "Missing WEATHER_API_KEY_BPF. Set it in your environment or .env.local (never commit secrets).",
             file=sys.stderr,
         )
         return 1
-
     try:
-        raw_weather = fetch_weather(args.api_base_url, api_key, args.location, args.timeout)
-        site_payload = build_site_payload(raw_weather, args.location)
+        # raw_weather = fetch_weather(args.api_base_url, api_key, args.location, args.timeout)
+        # site_payload = build_site_payload(raw_weather, args.location)
+        update_data_payload(
+            spot_api_key, float(args.lat), float(args.lon), Path(args.output_dir)
+        )
+        # Hard-coded location id for now to minimise API calls - limited quota
+        update_bpf_data(
+            bpf_api_key,
+            args.bpf_collection,
+            args.bpf_location_id,
+            Path(args.output_dir),
+        )
     except Exception as exc:  # pragma: no cover - runtime safety path
         print(f"Failed to fetch weather data: {exc}", file=sys.stderr)
         return 1
-
-    out_path = Path(args.out)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(site_payload, indent=2), encoding="utf-8")
-    print(f"Wrote weather JSON to {out_path}")
     return 0
 
 

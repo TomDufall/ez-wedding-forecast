@@ -1,0 +1,4196 @@
+{
+  "links": [
+    {
+      "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections",
+      "hreflang": "en",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ],
+  "collections": [
+    {
+      "links": [
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-global",
+          "hreflang": "en",
+          "rel": "collection",
+          "type": "collection",
+          "title": "Collection document as JSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-global/position",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/prs.coverage+json",
+          "title": "Position document as CoverageJSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-global/locations",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/geo+json",
+          "title": "Locations document as GeoJSON"
+        }
+      ],
+      "id": "improver-percentiles-spot-global",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            -179.9833,
+            -67.5667,
+            179.5,
+            83.6561
+          ],
+          "crs": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2026-08-05T15:00:00Z",
+              "2026-08-20T00:00:00Z"
+            ]
+          ],
+          "values": [
+            "2026-08-05T15:00:00Z",
+            "2026-08-05T16:00:00Z",
+            "2026-08-05T17:00:00Z",
+            "2026-08-05T18:00:00Z",
+            "2026-08-05T19:00:00Z",
+            "2026-08-05T20:00:00Z",
+            "2026-08-05T21:00:00Z",
+            "2026-08-05T22:00:00Z",
+            "2026-08-05T23:00:00Z",
+            "2026-08-06T00:00:00Z",
+            "2026-08-06T01:00:00Z",
+            "2026-08-06T02:00:00Z",
+            "2026-08-06T03:00:00Z",
+            "2026-08-06T04:00:00Z",
+            "2026-08-06T05:00:00Z",
+            "2026-08-06T06:00:00Z",
+            "2026-08-06T07:00:00Z",
+            "2026-08-06T08:00:00Z",
+            "2026-08-06T09:00:00Z",
+            "2026-08-06T10:00:00Z",
+            "2026-08-06T11:00:00Z",
+            "2026-08-06T12:00:00Z",
+            "2026-08-06T13:00:00Z",
+            "2026-08-06T14:00:00Z",
+            "2026-08-06T15:00:00Z",
+            "2026-08-06T16:00:00Z",
+            "2026-08-06T17:00:00Z",
+            "2026-08-06T18:00:00Z",
+            "2026-08-06T19:00:00Z",
+            "2026-08-06T20:00:00Z",
+            "2026-08-06T21:00:00Z",
+            "2026-08-06T22:00:00Z",
+            "2026-08-06T23:00:00Z",
+            "2026-08-07T00:00:00Z",
+            "2026-08-07T01:00:00Z",
+            "2026-08-07T02:00:00Z",
+            "2026-08-07T03:00:00Z",
+            "2026-08-07T04:00:00Z",
+            "2026-08-07T05:00:00Z",
+            "2026-08-07T06:00:00Z",
+            "2026-08-07T07:00:00Z",
+            "2026-08-07T08:00:00Z",
+            "2026-08-07T09:00:00Z",
+            "2026-08-07T10:00:00Z",
+            "2026-08-07T11:00:00Z",
+            "2026-08-07T12:00:00Z",
+            "2026-08-07T13:00:00Z",
+            "2026-08-07T14:00:00Z",
+            "2026-08-07T15:00:00Z",
+            "2026-08-07T16:00:00Z",
+            "2026-08-07T17:00:00Z",
+            "2026-08-07T18:00:00Z",
+            "2026-08-07T19:00:00Z",
+            "2026-08-07T20:00:00Z",
+            "2026-08-07T21:00:00Z",
+            "2026-08-07T22:00:00Z",
+            "2026-08-07T23:00:00Z",
+            "2026-08-08T00:00:00Z",
+            "2026-08-08T01:00:00Z",
+            "2026-08-08T02:00:00Z",
+            "2026-08-08T03:00:00Z",
+            "2026-08-08T04:00:00Z",
+            "2026-08-08T05:00:00Z",
+            "2026-08-08T06:00:00Z",
+            "2026-08-08T07:00:00Z",
+            "2026-08-08T08:00:00Z",
+            "2026-08-08T09:00:00Z",
+            "2026-08-08T10:00:00Z",
+            "2026-08-08T11:00:00Z",
+            "2026-08-08T12:00:00Z",
+            "2026-08-08T13:00:00Z",
+            "2026-08-08T14:00:00Z",
+            "2026-08-08T15:00:00Z",
+            "2026-08-08T16:00:00Z",
+            "2026-08-08T17:00:00Z",
+            "2026-08-08T18:00:00Z",
+            "2026-08-08T19:00:00Z",
+            "2026-08-08T20:00:00Z",
+            "2026-08-08T21:00:00Z",
+            "2026-08-08T22:00:00Z",
+            "2026-08-08T23:00:00Z",
+            "2026-08-09T00:00:00Z",
+            "2026-08-09T01:00:00Z",
+            "2026-08-09T02:00:00Z",
+            "2026-08-09T03:00:00Z",
+            "2026-08-09T04:00:00Z",
+            "2026-08-09T05:00:00Z",
+            "2026-08-09T06:00:00Z",
+            "2026-08-09T07:00:00Z",
+            "2026-08-09T08:00:00Z",
+            "2026-08-09T09:00:00Z",
+            "2026-08-09T10:00:00Z",
+            "2026-08-09T11:00:00Z",
+            "2026-08-09T12:00:00Z",
+            "2026-08-09T13:00:00Z",
+            "2026-08-09T14:00:00Z",
+            "2026-08-09T15:00:00Z",
+            "2026-08-09T16:00:00Z",
+            "2026-08-09T17:00:00Z",
+            "2026-08-09T18:00:00Z",
+            "2026-08-09T19:00:00Z",
+            "2026-08-09T20:00:00Z",
+            "2026-08-09T21:00:00Z",
+            "2026-08-09T22:00:00Z",
+            "2026-08-09T23:00:00Z",
+            "2026-08-10T00:00:00Z",
+            "2026-08-10T01:00:00Z",
+            "2026-08-10T02:00:00Z",
+            "2026-08-10T03:00:00Z",
+            "2026-08-10T04:00:00Z",
+            "2026-08-10T05:00:00Z",
+            "2026-08-10T06:00:00Z",
+            "2026-08-10T07:00:00Z",
+            "2026-08-10T08:00:00Z",
+            "2026-08-10T09:00:00Z",
+            "2026-08-10T10:00:00Z",
+            "2026-08-10T11:00:00Z",
+            "2026-08-10T12:00:00Z",
+            "2026-08-10T13:00:00Z",
+            "2026-08-10T14:00:00Z",
+            "2026-08-10T15:00:00Z",
+            "2026-08-10T16:00:00Z",
+            "2026-08-10T17:00:00Z",
+            "2026-08-10T18:00:00Z",
+            "2026-08-10T19:00:00Z",
+            "2026-08-10T20:00:00Z",
+            "2026-08-10T21:00:00Z",
+            "2026-08-10T22:00:00Z",
+            "2026-08-10T23:00:00Z",
+            "2026-08-11T00:00:00Z",
+            "2026-08-11T01:00:00Z",
+            "2026-08-11T02:00:00Z",
+            "2026-08-11T03:00:00Z",
+            "2026-08-11T04:00:00Z",
+            "2026-08-11T05:00:00Z",
+            "2026-08-11T06:00:00Z",
+            "2026-08-11T09:00:00Z",
+            "2026-08-11T12:00:00Z",
+            "2026-08-11T15:00:00Z",
+            "2026-08-11T18:00:00Z",
+            "2026-08-11T21:00:00Z",
+            "2026-08-12T00:00:00Z",
+            "2026-08-12T03:00:00Z",
+            "2026-08-12T06:00:00Z",
+            "2026-08-12T09:00:00Z",
+            "2026-08-12T12:00:00Z",
+            "2026-08-12T15:00:00Z",
+            "2026-08-12T18:00:00Z",
+            "2026-08-12T21:00:00Z",
+            "2026-08-13T00:00:00Z",
+            "2026-08-13T03:00:00Z",
+            "2026-08-13T06:00:00Z",
+            "2026-08-13T09:00:00Z",
+            "2026-08-13T12:00:00Z",
+            "2026-08-13T15:00:00Z",
+            "2026-08-13T18:00:00Z",
+            "2026-08-13T21:00:00Z",
+            "2026-08-14T00:00:00Z",
+            "2026-08-14T03:00:00Z",
+            "2026-08-14T06:00:00Z",
+            "2026-08-14T09:00:00Z",
+            "2026-08-14T12:00:00Z",
+            "2026-08-14T15:00:00Z",
+            "2026-08-14T18:00:00Z",
+            "2026-08-14T21:00:00Z",
+            "2026-08-15T00:00:00Z",
+            "2026-08-15T03:00:00Z",
+            "2026-08-15T06:00:00Z",
+            "2026-08-15T09:00:00Z",
+            "2026-08-15T12:00:00Z",
+            "2026-08-15T15:00:00Z",
+            "2026-08-15T18:00:00Z",
+            "2026-08-15T21:00:00Z",
+            "2026-08-16T00:00:00Z",
+            "2026-08-16T03:00:00Z",
+            "2026-08-16T06:00:00Z",
+            "2026-08-16T09:00:00Z",
+            "2026-08-16T12:00:00Z",
+            "2026-08-16T15:00:00Z",
+            "2026-08-16T18:00:00Z",
+            "2026-08-16T21:00:00Z",
+            "2026-08-17T00:00:00Z",
+            "2026-08-17T03:00:00Z",
+            "2026-08-17T06:00:00Z",
+            "2026-08-17T09:00:00Z",
+            "2026-08-17T12:00:00Z",
+            "2026-08-17T15:00:00Z",
+            "2026-08-17T18:00:00Z",
+            "2026-08-17T21:00:00Z",
+            "2026-08-18T00:00:00Z",
+            "2026-08-18T03:00:00Z",
+            "2026-08-18T06:00:00Z",
+            "2026-08-18T09:00:00Z",
+            "2026-08-18T12:00:00Z",
+            "2026-08-18T15:00:00Z",
+            "2026-08-18T18:00:00Z",
+            "2026-08-18T21:00:00Z",
+            "2026-08-19T00:00:00Z",
+            "2026-08-19T03:00:00Z",
+            "2026-08-19T06:00:00Z",
+            "2026-08-19T09:00:00Z",
+            "2026-08-19T12:00:00Z",
+            "2026-08-19T15:00:00Z",
+            "2026-08-19T18:00:00Z",
+            "2026-08-19T21:00:00Z",
+            "2026-08-20T00:00:00Z"
+          ],
+          "trs": "TIMECRS[\"DateTime\",TDATUM[\"Gregorian Calendar\"],CS[TemporalDateTime,1],AXIS[\"Time (T)\",future]]"
+        }
+      },
+      "parameter_names": {
+        "airPressureAtSeaLevel": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_pressure_at_sea_level"
+            }
+          },
+          "unit": {
+            "symbol": "Pa"
+          }
+        },
+        "airTemperature": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "airTemperatureMaximumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature_maximum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "airTemperatureMinimumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature_minimum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "cloudAreaFraction": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_area_fraction"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "cloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan2p5Oktas": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_2p5_oktas"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "cloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan4p5Oktas": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_4p5_oktas"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "durationOfSunshineSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "duration_of_sunshine_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "s"
+          }
+        },
+        "feelsLikeTemperature": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "feels_like_temperature"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "lowTypeCloudAreaFraction": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "low_type_cloud_area_fraction"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "lwePrecipitationRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_precipitation_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweSleetfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_sleetfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweSnowfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_snowfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweThicknessOfFreezingRainfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_freezing_rainfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfFreezingRainfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_freezing_rainfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfGraupelAndHailFallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_graupel_and_hail_fall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfGraupelAndHailFallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_graupel_and_hail_fall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt48h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT48H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSleetfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_sleetfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSleetfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_sleetfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSnowfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_snowfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSnowfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_snowfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "rainfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "rainfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "relativeHumidity": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "relative_humidity"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "thicknessOfRainfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "thickness_of_rainfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "thicknessOfRainfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "thickness_of_rainfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "ultravioletIndex": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "ultraviolet_index"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "ultravioletIndexMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "ultraviolet_index_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "visibilityInAir": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "visibility_in_air"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "weatherCodeMode1HourPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt02h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT02H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt04h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT04H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt05h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT05H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt07h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT07H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt08h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT08H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt09h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT09H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt10h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT10H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt11h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT11H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt13h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT13H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt14h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT14H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt15h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT15H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt16h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT16H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt17h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT17H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt18h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT18H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt19h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT19H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt20h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT20H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt21h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT21H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt22h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT22H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt23h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT23H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode3HourPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_3_hour_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodePt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodePt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "windFromDirection": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_from_direction"
+            }
+          },
+          "unit": {
+            "symbol": "degrees"
+          }
+        },
+        "windSpeed": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedMeanPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_mean_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        }
+      },
+      "output_formats": [
+        "CoverageJSON",
+        "GeoJSON"
+      ],
+      "data_queries": {
+        "locations": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-global/locations",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/geo+json",
+            "title": "Locations document as GeoJSON"
+          }
+        },
+        "position": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-global/position",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/prs.coverage+json",
+            "title": "Position document as CoverageJSON"
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-uk",
+          "hreflang": "en",
+          "rel": "collection",
+          "type": "collection",
+          "title": "Collection document as JSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-uk/position",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/prs.coverage+json",
+          "title": "Position document as CoverageJSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-uk/locations",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/geo+json",
+          "title": "Locations document as GeoJSON"
+        }
+      ],
+      "id": "improver-percentiles-spot-uk",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            -10.25,
+            45.2008,
+            13.7072,
+            62.5604
+          ],
+          "crs": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2026-08-05T18:00:00Z",
+              "2026-08-20T00:00:00Z"
+            ]
+          ],
+          "values": [
+            "2026-08-05T18:00:00Z",
+            "2026-08-05T19:00:00Z",
+            "2026-08-05T20:00:00Z",
+            "2026-08-05T21:00:00Z",
+            "2026-08-05T22:00:00Z",
+            "2026-08-05T23:00:00Z",
+            "2026-08-06T00:00:00Z",
+            "2026-08-06T01:00:00Z",
+            "2026-08-06T02:00:00Z",
+            "2026-08-06T03:00:00Z",
+            "2026-08-06T04:00:00Z",
+            "2026-08-06T05:00:00Z",
+            "2026-08-06T06:00:00Z",
+            "2026-08-06T07:00:00Z",
+            "2026-08-06T08:00:00Z",
+            "2026-08-06T09:00:00Z",
+            "2026-08-06T10:00:00Z",
+            "2026-08-06T11:00:00Z",
+            "2026-08-06T12:00:00Z",
+            "2026-08-06T13:00:00Z",
+            "2026-08-06T14:00:00Z",
+            "2026-08-06T15:00:00Z",
+            "2026-08-06T16:00:00Z",
+            "2026-08-06T17:00:00Z",
+            "2026-08-06T18:00:00Z",
+            "2026-08-06T19:00:00Z",
+            "2026-08-06T20:00:00Z",
+            "2026-08-06T21:00:00Z",
+            "2026-08-06T22:00:00Z",
+            "2026-08-06T23:00:00Z",
+            "2026-08-07T00:00:00Z",
+            "2026-08-07T01:00:00Z",
+            "2026-08-07T02:00:00Z",
+            "2026-08-07T03:00:00Z",
+            "2026-08-07T04:00:00Z",
+            "2026-08-07T05:00:00Z",
+            "2026-08-07T06:00:00Z",
+            "2026-08-07T07:00:00Z",
+            "2026-08-07T08:00:00Z",
+            "2026-08-07T09:00:00Z",
+            "2026-08-07T10:00:00Z",
+            "2026-08-07T11:00:00Z",
+            "2026-08-07T12:00:00Z",
+            "2026-08-07T13:00:00Z",
+            "2026-08-07T14:00:00Z",
+            "2026-08-07T15:00:00Z",
+            "2026-08-07T16:00:00Z",
+            "2026-08-07T17:00:00Z",
+            "2026-08-07T18:00:00Z",
+            "2026-08-07T19:00:00Z",
+            "2026-08-07T20:00:00Z",
+            "2026-08-07T21:00:00Z",
+            "2026-08-07T22:00:00Z",
+            "2026-08-07T23:00:00Z",
+            "2026-08-08T00:00:00Z",
+            "2026-08-08T01:00:00Z",
+            "2026-08-08T02:00:00Z",
+            "2026-08-08T03:00:00Z",
+            "2026-08-08T04:00:00Z",
+            "2026-08-08T05:00:00Z",
+            "2026-08-08T06:00:00Z",
+            "2026-08-08T07:00:00Z",
+            "2026-08-08T08:00:00Z",
+            "2026-08-08T09:00:00Z",
+            "2026-08-08T10:00:00Z",
+            "2026-08-08T11:00:00Z",
+            "2026-08-08T12:00:00Z",
+            "2026-08-08T13:00:00Z",
+            "2026-08-08T14:00:00Z",
+            "2026-08-08T15:00:00Z",
+            "2026-08-08T16:00:00Z",
+            "2026-08-08T17:00:00Z",
+            "2026-08-08T18:00:00Z",
+            "2026-08-08T19:00:00Z",
+            "2026-08-08T20:00:00Z",
+            "2026-08-08T21:00:00Z",
+            "2026-08-08T22:00:00Z",
+            "2026-08-08T23:00:00Z",
+            "2026-08-09T00:00:00Z",
+            "2026-08-09T01:00:00Z",
+            "2026-08-09T02:00:00Z",
+            "2026-08-09T03:00:00Z",
+            "2026-08-09T04:00:00Z",
+            "2026-08-09T05:00:00Z",
+            "2026-08-09T06:00:00Z",
+            "2026-08-09T07:00:00Z",
+            "2026-08-09T08:00:00Z",
+            "2026-08-09T09:00:00Z",
+            "2026-08-09T10:00:00Z",
+            "2026-08-09T11:00:00Z",
+            "2026-08-09T12:00:00Z",
+            "2026-08-09T13:00:00Z",
+            "2026-08-09T14:00:00Z",
+            "2026-08-09T15:00:00Z",
+            "2026-08-09T16:00:00Z",
+            "2026-08-09T17:00:00Z",
+            "2026-08-09T18:00:00Z",
+            "2026-08-09T19:00:00Z",
+            "2026-08-09T20:00:00Z",
+            "2026-08-09T21:00:00Z",
+            "2026-08-09T22:00:00Z",
+            "2026-08-09T23:00:00Z",
+            "2026-08-10T00:00:00Z",
+            "2026-08-10T01:00:00Z",
+            "2026-08-10T02:00:00Z",
+            "2026-08-10T03:00:00Z",
+            "2026-08-10T04:00:00Z",
+            "2026-08-10T05:00:00Z",
+            "2026-08-10T06:00:00Z",
+            "2026-08-10T07:00:00Z",
+            "2026-08-10T08:00:00Z",
+            "2026-08-10T09:00:00Z",
+            "2026-08-10T10:00:00Z",
+            "2026-08-10T11:00:00Z",
+            "2026-08-10T12:00:00Z",
+            "2026-08-10T13:00:00Z",
+            "2026-08-10T14:00:00Z",
+            "2026-08-10T15:00:00Z",
+            "2026-08-10T16:00:00Z",
+            "2026-08-10T17:00:00Z",
+            "2026-08-10T18:00:00Z",
+            "2026-08-10T19:00:00Z",
+            "2026-08-10T20:00:00Z",
+            "2026-08-10T21:00:00Z",
+            "2026-08-10T22:00:00Z",
+            "2026-08-10T23:00:00Z",
+            "2026-08-11T00:00:00Z",
+            "2026-08-11T01:00:00Z",
+            "2026-08-11T02:00:00Z",
+            "2026-08-11T03:00:00Z",
+            "2026-08-11T04:00:00Z",
+            "2026-08-11T05:00:00Z",
+            "2026-08-11T06:00:00Z",
+            "2026-08-11T07:00:00Z",
+            "2026-08-11T08:00:00Z",
+            "2026-08-11T09:00:00Z",
+            "2026-08-11T10:00:00Z",
+            "2026-08-11T11:00:00Z",
+            "2026-08-11T12:00:00Z",
+            "2026-08-11T13:00:00Z",
+            "2026-08-11T14:00:00Z",
+            "2026-08-11T15:00:00Z",
+            "2026-08-11T16:00:00Z",
+            "2026-08-11T17:00:00Z",
+            "2026-08-11T18:00:00Z",
+            "2026-08-11T19:00:00Z",
+            "2026-08-11T20:00:00Z",
+            "2026-08-11T21:00:00Z",
+            "2026-08-11T22:00:00Z",
+            "2026-08-11T23:00:00Z",
+            "2026-08-12T00:00:00Z",
+            "2026-08-12T01:00:00Z",
+            "2026-08-12T02:00:00Z",
+            "2026-08-12T03:00:00Z",
+            "2026-08-12T04:00:00Z",
+            "2026-08-12T05:00:00Z",
+            "2026-08-12T06:00:00Z",
+            "2026-08-12T07:00:00Z",
+            "2026-08-12T08:00:00Z",
+            "2026-08-12T09:00:00Z",
+            "2026-08-12T10:00:00Z",
+            "2026-08-12T11:00:00Z",
+            "2026-08-12T12:00:00Z",
+            "2026-08-12T13:00:00Z",
+            "2026-08-12T14:00:00Z",
+            "2026-08-12T15:00:00Z",
+            "2026-08-12T16:00:00Z",
+            "2026-08-12T17:00:00Z",
+            "2026-08-12T18:00:00Z",
+            "2026-08-12T19:00:00Z",
+            "2026-08-12T20:00:00Z",
+            "2026-08-12T21:00:00Z",
+            "2026-08-12T22:00:00Z",
+            "2026-08-12T23:00:00Z",
+            "2026-08-13T00:00:00Z",
+            "2026-08-13T01:00:00Z",
+            "2026-08-13T02:00:00Z",
+            "2026-08-13T03:00:00Z",
+            "2026-08-13T04:00:00Z",
+            "2026-08-13T05:00:00Z",
+            "2026-08-13T06:00:00Z",
+            "2026-08-13T07:00:00Z",
+            "2026-08-13T08:00:00Z",
+            "2026-08-13T09:00:00Z",
+            "2026-08-13T10:00:00Z",
+            "2026-08-13T11:00:00Z",
+            "2026-08-13T12:00:00Z",
+            "2026-08-13T13:00:00Z",
+            "2026-08-13T14:00:00Z",
+            "2026-08-13T15:00:00Z",
+            "2026-08-13T16:00:00Z",
+            "2026-08-13T17:00:00Z",
+            "2026-08-13T18:00:00Z",
+            "2026-08-13T19:00:00Z",
+            "2026-08-13T20:00:00Z",
+            "2026-08-13T21:00:00Z",
+            "2026-08-13T22:00:00Z",
+            "2026-08-13T23:00:00Z",
+            "2026-08-14T00:00:00Z",
+            "2026-08-14T01:00:00Z",
+            "2026-08-14T02:00:00Z",
+            "2026-08-14T03:00:00Z",
+            "2026-08-14T04:00:00Z",
+            "2026-08-14T05:00:00Z",
+            "2026-08-14T06:00:00Z",
+            "2026-08-14T07:00:00Z",
+            "2026-08-14T08:00:00Z",
+            "2026-08-14T09:00:00Z",
+            "2026-08-14T10:00:00Z",
+            "2026-08-14T11:00:00Z",
+            "2026-08-14T12:00:00Z",
+            "2026-08-14T13:00:00Z",
+            "2026-08-14T14:00:00Z",
+            "2026-08-14T15:00:00Z",
+            "2026-08-14T16:00:00Z",
+            "2026-08-14T17:00:00Z",
+            "2026-08-14T18:00:00Z",
+            "2026-08-14T19:00:00Z",
+            "2026-08-14T20:00:00Z",
+            "2026-08-14T21:00:00Z",
+            "2026-08-14T22:00:00Z",
+            "2026-08-14T23:00:00Z",
+            "2026-08-15T00:00:00Z",
+            "2026-08-15T01:00:00Z",
+            "2026-08-15T02:00:00Z",
+            "2026-08-15T03:00:00Z",
+            "2026-08-15T04:00:00Z",
+            "2026-08-15T05:00:00Z",
+            "2026-08-15T06:00:00Z",
+            "2026-08-15T07:00:00Z",
+            "2026-08-15T08:00:00Z",
+            "2026-08-15T09:00:00Z",
+            "2026-08-15T10:00:00Z",
+            "2026-08-15T11:00:00Z",
+            "2026-08-15T12:00:00Z",
+            "2026-08-15T14:00:00Z",
+            "2026-08-15T15:00:00Z",
+            "2026-08-15T17:00:00Z",
+            "2026-08-15T18:00:00Z",
+            "2026-08-15T20:00:00Z",
+            "2026-08-15T21:00:00Z",
+            "2026-08-15T23:00:00Z",
+            "2026-08-16T00:00:00Z",
+            "2026-08-16T03:00:00Z",
+            "2026-08-16T06:00:00Z",
+            "2026-08-16T09:00:00Z",
+            "2026-08-16T12:00:00Z",
+            "2026-08-16T15:00:00Z",
+            "2026-08-16T18:00:00Z",
+            "2026-08-16T21:00:00Z",
+            "2026-08-17T00:00:00Z",
+            "2026-08-17T03:00:00Z",
+            "2026-08-17T06:00:00Z",
+            "2026-08-17T09:00:00Z",
+            "2026-08-17T12:00:00Z",
+            "2026-08-17T15:00:00Z",
+            "2026-08-17T18:00:00Z",
+            "2026-08-17T21:00:00Z",
+            "2026-08-18T00:00:00Z",
+            "2026-08-18T03:00:00Z",
+            "2026-08-18T06:00:00Z",
+            "2026-08-18T09:00:00Z",
+            "2026-08-18T12:00:00Z",
+            "2026-08-18T15:00:00Z",
+            "2026-08-18T18:00:00Z",
+            "2026-08-18T21:00:00Z",
+            "2026-08-19T00:00:00Z",
+            "2026-08-19T03:00:00Z",
+            "2026-08-19T06:00:00Z",
+            "2026-08-19T09:00:00Z",
+            "2026-08-19T12:00:00Z",
+            "2026-08-19T15:00:00Z",
+            "2026-08-19T18:00:00Z",
+            "2026-08-19T21:00:00Z",
+            "2026-08-20T00:00:00Z"
+          ],
+          "trs": "TIMECRS[\"DateTime\",TDATUM[\"Gregorian Calendar\"],CS[TemporalDateTime,1],AXIS[\"Time (T)\",future]]"
+        }
+      },
+      "parameter_names": {
+        "airPressureAtSeaLevel": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_pressure_at_sea_level"
+            }
+          },
+          "unit": {
+            "symbol": "Pa"
+          }
+        },
+        "airTemperature": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "airTemperatureMaximumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature_maximum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "airTemperatureMinimumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "air_temperature_minimum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "cloudAreaFraction": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_area_fraction"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "cloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan2p5Oktas": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_2p5_oktas"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "cloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan4p5Oktas": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_4p5_oktas"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "durationOfSunshineSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "duration_of_sunshine_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "s"
+          }
+        },
+        "feelsLikeTemperature": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "feels_like_temperature"
+            }
+          },
+          "unit": {
+            "symbol": "K"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet0pt003m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_0pt003m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "fractionOfTimeClassifiedAsWet3pt0e-4m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "fraction_of_time_classified_as_wet_3pt0E-4m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "lowTypeCloudAreaFraction": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "low_type_cloud_area_fraction"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "lwePrecipitationRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_precipitation_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lwePrecipitationRateInVicinity10000M": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_precipitation_rate_in_vicinity_10000_m"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweSleetfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_sleetfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweSnowfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_snowfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "lweThicknessOfFreezingRainfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_freezing_rainfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfFreezingRainfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_freezing_rainfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfGraupelAndHailFallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_graupel_and_hail_fall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfGraupelAndHailFallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_graupel_and_hail_fall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountInVicinity10000MSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_in_vicinity_10000_m_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountInVicinity10000MSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_in_vicinity_10000_m_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfPrecipitationAmountSumPt48h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_precipitation_amount_sum_PT48H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSleetfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_sleetfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSleetfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_sleetfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSnowfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_snowfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "lweThicknessOfSnowfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "lwe_thickness_of_snowfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "rainfallRate": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "rainfall_rate"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "relativeHumidity": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "relative_humidity"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "thicknessOfRainfallAmountSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "thickness_of_rainfall_amount_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "thicknessOfRainfallAmountSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "thickness_of_rainfall_amount_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "ultravioletIndex": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "ultraviolet_index"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "ultravioletIndexMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "ultraviolet_index_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "visibilityInAir": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "visibility_in_air"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "visibilityInAirInVicinity10000M": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "visibility_in_air_in_vicinity_10000_m"
+            }
+          },
+          "unit": {
+            "symbol": "m"
+          }
+        },
+        "weatherCodeMode1HourPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt02h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT02H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt04h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT04H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt05h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT05H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt07h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT07H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt08h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT08H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt09h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT09H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt10h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT10H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt11h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT11H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt13h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT13H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt14h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT14H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt15h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT15H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt16h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT16H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt17h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT17H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt18h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT18H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt19h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT19H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt20h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT20H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt21h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT21H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt22h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT22H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt23h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT23H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode1HourPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_1_hour_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodeMode3HourPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_mode_3_hour_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodePt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "weatherCodePt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "weather_code_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "windFromDirection": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_from_direction"
+            }
+          },
+          "unit": {
+            "symbol": "degrees"
+          }
+        },
+        "windSpeed": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedMeanPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_mean_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        },
+        "windSpeedOfGustMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "wind_speed_of_gust_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "m s-1"
+          }
+        }
+      },
+      "output_formats": [
+        "CoverageJSON",
+        "GeoJSON"
+      ],
+      "data_queries": {
+        "locations": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-uk/locations",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/geo+json",
+            "title": "Locations document as GeoJSON"
+          }
+        },
+        "position": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-percentiles-spot-uk/position",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/prs.coverage+json",
+            "title": "Position document as CoverageJSON"
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-global",
+          "hreflang": "en",
+          "rel": "collection",
+          "type": "collection",
+          "title": "Collection document as JSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-global/position",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/prs.coverage+json",
+          "title": "Position document as CoverageJSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-global/locations",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/geo+json",
+          "title": "Locations document as GeoJSON"
+        }
+      ],
+      "id": "improver-probabilities-spot-global",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            -179.9833,
+            -67.5667,
+            179.5,
+            83.6561
+          ],
+          "crs": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2026-08-05T15:00:00Z",
+              "2026-08-20T00:00:00Z"
+            ]
+          ],
+          "values": [
+            "2026-08-05T15:00:00Z",
+            "2026-08-05T16:00:00Z",
+            "2026-08-05T17:00:00Z",
+            "2026-08-05T18:00:00Z",
+            "2026-08-05T19:00:00Z",
+            "2026-08-05T20:00:00Z",
+            "2026-08-05T21:00:00Z",
+            "2026-08-05T22:00:00Z",
+            "2026-08-05T23:00:00Z",
+            "2026-08-06T00:00:00Z",
+            "2026-08-06T01:00:00Z",
+            "2026-08-06T02:00:00Z",
+            "2026-08-06T03:00:00Z",
+            "2026-08-06T04:00:00Z",
+            "2026-08-06T05:00:00Z",
+            "2026-08-06T06:00:00Z",
+            "2026-08-06T07:00:00Z",
+            "2026-08-06T08:00:00Z",
+            "2026-08-06T09:00:00Z",
+            "2026-08-06T10:00:00Z",
+            "2026-08-06T11:00:00Z",
+            "2026-08-06T12:00:00Z",
+            "2026-08-06T13:00:00Z",
+            "2026-08-06T14:00:00Z",
+            "2026-08-06T15:00:00Z",
+            "2026-08-06T16:00:00Z",
+            "2026-08-06T17:00:00Z",
+            "2026-08-06T18:00:00Z",
+            "2026-08-06T19:00:00Z",
+            "2026-08-06T20:00:00Z",
+            "2026-08-06T21:00:00Z",
+            "2026-08-06T22:00:00Z",
+            "2026-08-06T23:00:00Z",
+            "2026-08-07T00:00:00Z",
+            "2026-08-07T01:00:00Z",
+            "2026-08-07T02:00:00Z",
+            "2026-08-07T03:00:00Z",
+            "2026-08-07T04:00:00Z",
+            "2026-08-07T05:00:00Z",
+            "2026-08-07T06:00:00Z",
+            "2026-08-07T07:00:00Z",
+            "2026-08-07T08:00:00Z",
+            "2026-08-07T09:00:00Z",
+            "2026-08-07T10:00:00Z",
+            "2026-08-07T11:00:00Z",
+            "2026-08-07T12:00:00Z",
+            "2026-08-07T13:00:00Z",
+            "2026-08-07T14:00:00Z",
+            "2026-08-07T15:00:00Z",
+            "2026-08-07T16:00:00Z",
+            "2026-08-07T17:00:00Z",
+            "2026-08-07T18:00:00Z",
+            "2026-08-07T19:00:00Z",
+            "2026-08-07T20:00:00Z",
+            "2026-08-07T21:00:00Z",
+            "2026-08-07T22:00:00Z",
+            "2026-08-07T23:00:00Z",
+            "2026-08-08T00:00:00Z",
+            "2026-08-08T01:00:00Z",
+            "2026-08-08T02:00:00Z",
+            "2026-08-08T03:00:00Z",
+            "2026-08-08T04:00:00Z",
+            "2026-08-08T05:00:00Z",
+            "2026-08-08T06:00:00Z",
+            "2026-08-08T07:00:00Z",
+            "2026-08-08T08:00:00Z",
+            "2026-08-08T09:00:00Z",
+            "2026-08-08T10:00:00Z",
+            "2026-08-08T11:00:00Z",
+            "2026-08-08T12:00:00Z",
+            "2026-08-08T13:00:00Z",
+            "2026-08-08T14:00:00Z",
+            "2026-08-08T15:00:00Z",
+            "2026-08-08T16:00:00Z",
+            "2026-08-08T17:00:00Z",
+            "2026-08-08T18:00:00Z",
+            "2026-08-08T19:00:00Z",
+            "2026-08-08T20:00:00Z",
+            "2026-08-08T21:00:00Z",
+            "2026-08-08T22:00:00Z",
+            "2026-08-08T23:00:00Z",
+            "2026-08-09T00:00:00Z",
+            "2026-08-09T01:00:00Z",
+            "2026-08-09T02:00:00Z",
+            "2026-08-09T03:00:00Z",
+            "2026-08-09T04:00:00Z",
+            "2026-08-09T05:00:00Z",
+            "2026-08-09T06:00:00Z",
+            "2026-08-09T07:00:00Z",
+            "2026-08-09T08:00:00Z",
+            "2026-08-09T09:00:00Z",
+            "2026-08-09T10:00:00Z",
+            "2026-08-09T11:00:00Z",
+            "2026-08-09T12:00:00Z",
+            "2026-08-09T13:00:00Z",
+            "2026-08-09T14:00:00Z",
+            "2026-08-09T15:00:00Z",
+            "2026-08-09T16:00:00Z",
+            "2026-08-09T17:00:00Z",
+            "2026-08-09T18:00:00Z",
+            "2026-08-09T19:00:00Z",
+            "2026-08-09T20:00:00Z",
+            "2026-08-09T21:00:00Z",
+            "2026-08-09T22:00:00Z",
+            "2026-08-09T23:00:00Z",
+            "2026-08-10T00:00:00Z",
+            "2026-08-10T01:00:00Z",
+            "2026-08-10T02:00:00Z",
+            "2026-08-10T03:00:00Z",
+            "2026-08-10T04:00:00Z",
+            "2026-08-10T05:00:00Z",
+            "2026-08-10T06:00:00Z",
+            "2026-08-10T07:00:00Z",
+            "2026-08-10T08:00:00Z",
+            "2026-08-10T09:00:00Z",
+            "2026-08-10T10:00:00Z",
+            "2026-08-10T11:00:00Z",
+            "2026-08-10T12:00:00Z",
+            "2026-08-10T13:00:00Z",
+            "2026-08-10T14:00:00Z",
+            "2026-08-10T15:00:00Z",
+            "2026-08-10T16:00:00Z",
+            "2026-08-10T17:00:00Z",
+            "2026-08-10T18:00:00Z",
+            "2026-08-10T19:00:00Z",
+            "2026-08-10T20:00:00Z",
+            "2026-08-10T21:00:00Z",
+            "2026-08-10T22:00:00Z",
+            "2026-08-10T23:00:00Z",
+            "2026-08-11T00:00:00Z",
+            "2026-08-11T01:00:00Z",
+            "2026-08-11T02:00:00Z",
+            "2026-08-11T03:00:00Z",
+            "2026-08-11T04:00:00Z",
+            "2026-08-11T05:00:00Z",
+            "2026-08-11T06:00:00Z",
+            "2026-08-11T09:00:00Z",
+            "2026-08-11T12:00:00Z",
+            "2026-08-11T15:00:00Z",
+            "2026-08-11T18:00:00Z",
+            "2026-08-11T21:00:00Z",
+            "2026-08-12T00:00:00Z",
+            "2026-08-12T03:00:00Z",
+            "2026-08-12T06:00:00Z",
+            "2026-08-12T09:00:00Z",
+            "2026-08-12T12:00:00Z",
+            "2026-08-12T15:00:00Z",
+            "2026-08-12T18:00:00Z",
+            "2026-08-12T21:00:00Z",
+            "2026-08-13T00:00:00Z",
+            "2026-08-13T03:00:00Z",
+            "2026-08-13T06:00:00Z",
+            "2026-08-13T09:00:00Z",
+            "2026-08-13T12:00:00Z",
+            "2026-08-13T15:00:00Z",
+            "2026-08-13T18:00:00Z",
+            "2026-08-13T21:00:00Z",
+            "2026-08-14T00:00:00Z",
+            "2026-08-14T03:00:00Z",
+            "2026-08-14T06:00:00Z",
+            "2026-08-14T09:00:00Z",
+            "2026-08-14T12:00:00Z",
+            "2026-08-14T15:00:00Z",
+            "2026-08-14T18:00:00Z",
+            "2026-08-14T21:00:00Z",
+            "2026-08-15T00:00:00Z",
+            "2026-08-15T03:00:00Z",
+            "2026-08-15T06:00:00Z",
+            "2026-08-15T09:00:00Z",
+            "2026-08-15T12:00:00Z",
+            "2026-08-15T15:00:00Z",
+            "2026-08-15T18:00:00Z",
+            "2026-08-15T21:00:00Z",
+            "2026-08-16T00:00:00Z",
+            "2026-08-16T03:00:00Z",
+            "2026-08-16T06:00:00Z",
+            "2026-08-16T09:00:00Z",
+            "2026-08-16T12:00:00Z",
+            "2026-08-16T15:00:00Z",
+            "2026-08-16T18:00:00Z",
+            "2026-08-16T21:00:00Z",
+            "2026-08-17T00:00:00Z",
+            "2026-08-17T03:00:00Z",
+            "2026-08-17T06:00:00Z",
+            "2026-08-17T09:00:00Z",
+            "2026-08-17T12:00:00Z",
+            "2026-08-17T15:00:00Z",
+            "2026-08-17T18:00:00Z",
+            "2026-08-17T21:00:00Z",
+            "2026-08-18T00:00:00Z",
+            "2026-08-18T03:00:00Z",
+            "2026-08-18T06:00:00Z",
+            "2026-08-18T09:00:00Z",
+            "2026-08-18T12:00:00Z",
+            "2026-08-18T15:00:00Z",
+            "2026-08-18T18:00:00Z",
+            "2026-08-18T21:00:00Z",
+            "2026-08-19T00:00:00Z",
+            "2026-08-19T03:00:00Z",
+            "2026-08-19T06:00:00Z",
+            "2026-08-19T09:00:00Z",
+            "2026-08-19T12:00:00Z",
+            "2026-08-19T15:00:00Z",
+            "2026-08-19T18:00:00Z",
+            "2026-08-19T21:00:00Z",
+            "2026-08-20T00:00:00Z"
+          ],
+          "trs": "TIMECRS[\"DateTime\",TDATUM[\"Gregorian Calendar\"],CS[TemporalDateTime,1],AXIS[\"Time (T)\",future]]"
+        }
+      },
+      "parameter_names": {
+        "probabilityOfCloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan2p5OktasBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_2p5_oktas_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfCloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan4p5OktasBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_4p5_oktas_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLwePrecipitationRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_precipitation_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweSleetfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_sleetfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweSnowfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_snowfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfFreezingRainfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_freezing_rainfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfFreezingRainfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_freezing_rainfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfGraupelAndHailFallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_graupel_and_hail_fall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfGraupelAndHailFallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_graupel_and_hail_fall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt48h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT48H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSleetfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_sleetfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSleetfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_sleetfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSnowfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_snowfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSnowfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_snowfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfNumberOfLightningFlashesPerUnitAreaAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_number_of_lightning_flashes_per_unit_area_above_threshold_Sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfNumberOfLightningFlashesPerUnitAreaAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_number_of_lightning_flashes_per_unit_area_above_threshold_Sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfRainfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_rainfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfRelativeHumidityAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_relative_humidity_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfThicknessOfRainfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_thickness_of_rainfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfThicknessOfRainfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_thickness_of_rainfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfUltravioletIndexAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_ultraviolet_index_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfUltravioletIndexAboveThresholdMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_ultraviolet_index_above_threshold_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfVisibilityInAirBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_visibility_in_air_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedAboveThresholdMeanPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_above_threshold_mean_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        }
+      },
+      "output_formats": [
+        "CoverageJSON",
+        "GeoJSON"
+      ],
+      "data_queries": {
+        "locations": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-global/locations",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/geo+json",
+            "title": "Locations document as GeoJSON"
+          }
+        },
+        "position": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-global/position",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/prs.coverage+json",
+            "title": "Position document as CoverageJSON"
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-uk",
+          "hreflang": "en",
+          "rel": "collection",
+          "type": "collection",
+          "title": "Collection document as JSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-uk/position",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/prs.coverage+json",
+          "title": "Position document as CoverageJSON"
+        },
+        {
+          "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-uk/locations",
+          "hreflang": "en",
+          "rel": "data",
+          "type": "application/geo+json",
+          "title": "Locations document as GeoJSON"
+        }
+      ],
+      "id": "improver-probabilities-spot-uk",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            -10.25,
+            45.2008,
+            13.7072,
+            62.5604
+          ],
+          "crs": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2026-08-05T18:00:00Z",
+              "2026-08-20T00:00:00Z"
+            ]
+          ],
+          "values": [
+            "2026-08-05T18:00:00Z",
+            "2026-08-05T19:00:00Z",
+            "2026-08-05T20:00:00Z",
+            "2026-08-05T21:00:00Z",
+            "2026-08-05T22:00:00Z",
+            "2026-08-05T23:00:00Z",
+            "2026-08-06T00:00:00Z",
+            "2026-08-06T01:00:00Z",
+            "2026-08-06T02:00:00Z",
+            "2026-08-06T03:00:00Z",
+            "2026-08-06T04:00:00Z",
+            "2026-08-06T05:00:00Z",
+            "2026-08-06T06:00:00Z",
+            "2026-08-06T07:00:00Z",
+            "2026-08-06T08:00:00Z",
+            "2026-08-06T09:00:00Z",
+            "2026-08-06T10:00:00Z",
+            "2026-08-06T11:00:00Z",
+            "2026-08-06T12:00:00Z",
+            "2026-08-06T13:00:00Z",
+            "2026-08-06T14:00:00Z",
+            "2026-08-06T15:00:00Z",
+            "2026-08-06T16:00:00Z",
+            "2026-08-06T17:00:00Z",
+            "2026-08-06T18:00:00Z",
+            "2026-08-06T19:00:00Z",
+            "2026-08-06T20:00:00Z",
+            "2026-08-06T21:00:00Z",
+            "2026-08-06T22:00:00Z",
+            "2026-08-06T23:00:00Z",
+            "2026-08-07T00:00:00Z",
+            "2026-08-07T01:00:00Z",
+            "2026-08-07T02:00:00Z",
+            "2026-08-07T03:00:00Z",
+            "2026-08-07T04:00:00Z",
+            "2026-08-07T05:00:00Z",
+            "2026-08-07T06:00:00Z",
+            "2026-08-07T07:00:00Z",
+            "2026-08-07T08:00:00Z",
+            "2026-08-07T09:00:00Z",
+            "2026-08-07T10:00:00Z",
+            "2026-08-07T11:00:00Z",
+            "2026-08-07T12:00:00Z",
+            "2026-08-07T13:00:00Z",
+            "2026-08-07T14:00:00Z",
+            "2026-08-07T15:00:00Z",
+            "2026-08-07T16:00:00Z",
+            "2026-08-07T17:00:00Z",
+            "2026-08-07T18:00:00Z",
+            "2026-08-07T19:00:00Z",
+            "2026-08-07T20:00:00Z",
+            "2026-08-07T21:00:00Z",
+            "2026-08-07T22:00:00Z",
+            "2026-08-07T23:00:00Z",
+            "2026-08-08T00:00:00Z",
+            "2026-08-08T01:00:00Z",
+            "2026-08-08T02:00:00Z",
+            "2026-08-08T03:00:00Z",
+            "2026-08-08T04:00:00Z",
+            "2026-08-08T05:00:00Z",
+            "2026-08-08T06:00:00Z",
+            "2026-08-08T07:00:00Z",
+            "2026-08-08T08:00:00Z",
+            "2026-08-08T09:00:00Z",
+            "2026-08-08T10:00:00Z",
+            "2026-08-08T11:00:00Z",
+            "2026-08-08T12:00:00Z",
+            "2026-08-08T13:00:00Z",
+            "2026-08-08T14:00:00Z",
+            "2026-08-08T15:00:00Z",
+            "2026-08-08T16:00:00Z",
+            "2026-08-08T17:00:00Z",
+            "2026-08-08T18:00:00Z",
+            "2026-08-08T19:00:00Z",
+            "2026-08-08T20:00:00Z",
+            "2026-08-08T21:00:00Z",
+            "2026-08-08T22:00:00Z",
+            "2026-08-08T23:00:00Z",
+            "2026-08-09T00:00:00Z",
+            "2026-08-09T01:00:00Z",
+            "2026-08-09T02:00:00Z",
+            "2026-08-09T03:00:00Z",
+            "2026-08-09T04:00:00Z",
+            "2026-08-09T05:00:00Z",
+            "2026-08-09T06:00:00Z",
+            "2026-08-09T07:00:00Z",
+            "2026-08-09T08:00:00Z",
+            "2026-08-09T09:00:00Z",
+            "2026-08-09T10:00:00Z",
+            "2026-08-09T11:00:00Z",
+            "2026-08-09T12:00:00Z",
+            "2026-08-09T13:00:00Z",
+            "2026-08-09T14:00:00Z",
+            "2026-08-09T15:00:00Z",
+            "2026-08-09T16:00:00Z",
+            "2026-08-09T17:00:00Z",
+            "2026-08-09T18:00:00Z",
+            "2026-08-09T19:00:00Z",
+            "2026-08-09T20:00:00Z",
+            "2026-08-09T21:00:00Z",
+            "2026-08-09T22:00:00Z",
+            "2026-08-09T23:00:00Z",
+            "2026-08-10T00:00:00Z",
+            "2026-08-10T01:00:00Z",
+            "2026-08-10T02:00:00Z",
+            "2026-08-10T03:00:00Z",
+            "2026-08-10T04:00:00Z",
+            "2026-08-10T05:00:00Z",
+            "2026-08-10T06:00:00Z",
+            "2026-08-10T07:00:00Z",
+            "2026-08-10T08:00:00Z",
+            "2026-08-10T09:00:00Z",
+            "2026-08-10T10:00:00Z",
+            "2026-08-10T11:00:00Z",
+            "2026-08-10T12:00:00Z",
+            "2026-08-10T13:00:00Z",
+            "2026-08-10T14:00:00Z",
+            "2026-08-10T15:00:00Z",
+            "2026-08-10T16:00:00Z",
+            "2026-08-10T17:00:00Z",
+            "2026-08-10T18:00:00Z",
+            "2026-08-10T19:00:00Z",
+            "2026-08-10T20:00:00Z",
+            "2026-08-10T21:00:00Z",
+            "2026-08-10T22:00:00Z",
+            "2026-08-10T23:00:00Z",
+            "2026-08-11T00:00:00Z",
+            "2026-08-11T01:00:00Z",
+            "2026-08-11T02:00:00Z",
+            "2026-08-11T03:00:00Z",
+            "2026-08-11T04:00:00Z",
+            "2026-08-11T05:00:00Z",
+            "2026-08-11T06:00:00Z",
+            "2026-08-11T07:00:00Z",
+            "2026-08-11T08:00:00Z",
+            "2026-08-11T09:00:00Z",
+            "2026-08-11T10:00:00Z",
+            "2026-08-11T11:00:00Z",
+            "2026-08-11T12:00:00Z",
+            "2026-08-11T13:00:00Z",
+            "2026-08-11T14:00:00Z",
+            "2026-08-11T15:00:00Z",
+            "2026-08-11T16:00:00Z",
+            "2026-08-11T17:00:00Z",
+            "2026-08-11T18:00:00Z",
+            "2026-08-11T19:00:00Z",
+            "2026-08-11T20:00:00Z",
+            "2026-08-11T21:00:00Z",
+            "2026-08-11T22:00:00Z",
+            "2026-08-11T23:00:00Z",
+            "2026-08-12T00:00:00Z",
+            "2026-08-12T01:00:00Z",
+            "2026-08-12T02:00:00Z",
+            "2026-08-12T03:00:00Z",
+            "2026-08-12T04:00:00Z",
+            "2026-08-12T05:00:00Z",
+            "2026-08-12T06:00:00Z",
+            "2026-08-12T07:00:00Z",
+            "2026-08-12T08:00:00Z",
+            "2026-08-12T09:00:00Z",
+            "2026-08-12T10:00:00Z",
+            "2026-08-12T11:00:00Z",
+            "2026-08-12T12:00:00Z",
+            "2026-08-12T13:00:00Z",
+            "2026-08-12T14:00:00Z",
+            "2026-08-12T15:00:00Z",
+            "2026-08-12T16:00:00Z",
+            "2026-08-12T17:00:00Z",
+            "2026-08-12T18:00:00Z",
+            "2026-08-12T19:00:00Z",
+            "2026-08-12T20:00:00Z",
+            "2026-08-12T21:00:00Z",
+            "2026-08-12T22:00:00Z",
+            "2026-08-12T23:00:00Z",
+            "2026-08-13T00:00:00Z",
+            "2026-08-13T01:00:00Z",
+            "2026-08-13T02:00:00Z",
+            "2026-08-13T03:00:00Z",
+            "2026-08-13T04:00:00Z",
+            "2026-08-13T05:00:00Z",
+            "2026-08-13T06:00:00Z",
+            "2026-08-13T07:00:00Z",
+            "2026-08-13T08:00:00Z",
+            "2026-08-13T09:00:00Z",
+            "2026-08-13T10:00:00Z",
+            "2026-08-13T11:00:00Z",
+            "2026-08-13T12:00:00Z",
+            "2026-08-13T13:00:00Z",
+            "2026-08-13T14:00:00Z",
+            "2026-08-13T15:00:00Z",
+            "2026-08-13T16:00:00Z",
+            "2026-08-13T17:00:00Z",
+            "2026-08-13T18:00:00Z",
+            "2026-08-13T19:00:00Z",
+            "2026-08-13T20:00:00Z",
+            "2026-08-13T21:00:00Z",
+            "2026-08-13T22:00:00Z",
+            "2026-08-13T23:00:00Z",
+            "2026-08-14T00:00:00Z",
+            "2026-08-14T01:00:00Z",
+            "2026-08-14T02:00:00Z",
+            "2026-08-14T03:00:00Z",
+            "2026-08-14T04:00:00Z",
+            "2026-08-14T05:00:00Z",
+            "2026-08-14T06:00:00Z",
+            "2026-08-14T07:00:00Z",
+            "2026-08-14T08:00:00Z",
+            "2026-08-14T09:00:00Z",
+            "2026-08-14T10:00:00Z",
+            "2026-08-14T11:00:00Z",
+            "2026-08-14T12:00:00Z",
+            "2026-08-14T13:00:00Z",
+            "2026-08-14T14:00:00Z",
+            "2026-08-14T15:00:00Z",
+            "2026-08-14T16:00:00Z",
+            "2026-08-14T17:00:00Z",
+            "2026-08-14T18:00:00Z",
+            "2026-08-14T19:00:00Z",
+            "2026-08-14T20:00:00Z",
+            "2026-08-14T21:00:00Z",
+            "2026-08-14T22:00:00Z",
+            "2026-08-14T23:00:00Z",
+            "2026-08-15T00:00:00Z",
+            "2026-08-15T01:00:00Z",
+            "2026-08-15T02:00:00Z",
+            "2026-08-15T03:00:00Z",
+            "2026-08-15T04:00:00Z",
+            "2026-08-15T05:00:00Z",
+            "2026-08-15T06:00:00Z",
+            "2026-08-15T07:00:00Z",
+            "2026-08-15T08:00:00Z",
+            "2026-08-15T09:00:00Z",
+            "2026-08-15T10:00:00Z",
+            "2026-08-15T11:00:00Z",
+            "2026-08-15T12:00:00Z",
+            "2026-08-15T14:00:00Z",
+            "2026-08-15T15:00:00Z",
+            "2026-08-15T17:00:00Z",
+            "2026-08-15T18:00:00Z",
+            "2026-08-15T20:00:00Z",
+            "2026-08-15T21:00:00Z",
+            "2026-08-15T23:00:00Z",
+            "2026-08-16T00:00:00Z",
+            "2026-08-16T03:00:00Z",
+            "2026-08-16T06:00:00Z",
+            "2026-08-16T09:00:00Z",
+            "2026-08-16T12:00:00Z",
+            "2026-08-16T15:00:00Z",
+            "2026-08-16T18:00:00Z",
+            "2026-08-16T21:00:00Z",
+            "2026-08-17T00:00:00Z",
+            "2026-08-17T03:00:00Z",
+            "2026-08-17T06:00:00Z",
+            "2026-08-17T09:00:00Z",
+            "2026-08-17T12:00:00Z",
+            "2026-08-17T15:00:00Z",
+            "2026-08-17T18:00:00Z",
+            "2026-08-17T21:00:00Z",
+            "2026-08-18T00:00:00Z",
+            "2026-08-18T03:00:00Z",
+            "2026-08-18T06:00:00Z",
+            "2026-08-18T09:00:00Z",
+            "2026-08-18T12:00:00Z",
+            "2026-08-18T15:00:00Z",
+            "2026-08-18T18:00:00Z",
+            "2026-08-18T21:00:00Z",
+            "2026-08-19T00:00:00Z",
+            "2026-08-19T03:00:00Z",
+            "2026-08-19T06:00:00Z",
+            "2026-08-19T09:00:00Z",
+            "2026-08-19T12:00:00Z",
+            "2026-08-19T15:00:00Z",
+            "2026-08-19T18:00:00Z",
+            "2026-08-19T21:00:00Z",
+            "2026-08-20T00:00:00Z"
+          ],
+          "trs": "TIMECRS[\"DateTime\",TDATUM[\"Gregorian Calendar\"],CS[TemporalDateTime,1],AXIS[\"Time (T)\",future]]"
+        }
+      },
+      "parameter_names": {
+        "probabilityOfAirPressureAtSeaLevelAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_air_pressure_at_sea_level_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfAirTemperatureAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_air_temperature_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfAirTemperatureAboveThresholdMaximumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_air_temperature_above_threshold_maximum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfAirTemperatureAboveThresholdMinimumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_air_temperature_above_threshold_minimum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfCloudAreaFractionAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_cloud_area_fraction_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfCloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan2p5OktasBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_2p5_oktas_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfCloudBaseHeightAssumingOnlyConsiderCloudAreaFractionGreaterThan4p5OktasBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_cloud_base_height_assuming_only_consider_cloud_area_fraction_greater_than_4p5_oktas_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFeelsLikeTemperatureAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_feels_like_temperature_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold0pt003m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_0pt003m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m0pt0ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_0pt0ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m1pt1111111e-6ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_1pt1111111E-6ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfFractionOfTimeClassifiedAsWetAboveThreshold3pt0e-4m5pt555556e-7ms-1Pt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_fraction_of_time_classified_as_wet_above_threshold_3pt0E-4m_5pt555556E-7ms-1_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLowTypeCloudAreaFractionAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_low_type_cloud_area_fraction_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLwePrecipitationRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_precipitation_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLwePrecipitationRateInVicinityAboveThreshold10000M": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_precipitation_rate_in_vicinity_above_threshold_10000_m"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweSleetfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_sleetfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweSnowfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_snowfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfFreezingRainfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_freezing_rainfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfFreezingRainfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_freezing_rainfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfGraupelAndHailFallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_graupel_and_hail_fall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfGraupelAndHailFallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_graupel_and_hail_fall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt06h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT06H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt12h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT12H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountAboveThresholdSumPt48h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_above_threshold_sum_PT48H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVariableVicinityAboveThreshold10000MSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_variable_vicinity_above_threshold_10000_m_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVariableVicinityAboveThreshold10000MSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_variable_vicinity_above_threshold_10000_m_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThreshold10000MSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_10000_m_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThreshold10000MSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_10000_m_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt01hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT01H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt01hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT01H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt03hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT03H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt03hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT03H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt06hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT06H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt06hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT06H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum14000MPt12hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_14000_m_PT12H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt01hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT01H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt01hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT01H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt03hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT03H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt03hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT03H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt06hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT06H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt06hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT06H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdMaximumSum30000MPt12hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_maximum_sum_30000_m_PT12H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt01hW001h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT01H_W001H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt03hW003h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT03H_W003H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt06hW006h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT06H_W006H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt12hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT12H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt24hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT24H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum14000MPt48hW048h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_14000_m_PT48H_W048H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt01hW001h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT01H_W001H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt03hW003h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT03H_W003H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt06hW006h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT06H_W006H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt12hW012h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT12H_W012H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt24hW024h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT24H_W024H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfPrecipitationAmountInVicinityAboveThresholdSum30000MPt48hW048h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_precipitation_amount_in_vicinity_above_threshold_sum_30000_m_PT48H_W048H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSleetfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_sleetfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSleetfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_sleetfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSnowfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_snowfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfLweThicknessOfSnowfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_lwe_thickness_of_snowfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfNumberOfLightningFlashesPerUnitAreaInVicinityAboveThreshold15000MPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_number_of_lightning_flashes_per_unit_area_in_vicinity_above_threshold_15000_m_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfNumberOfLightningFlashesPerUnitAreaInVicinityAboveThreshold15000MPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_number_of_lightning_flashes_per_unit_area_in_vicinity_above_threshold_15000_m_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfRainfallRateAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_rainfall_rate_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfRelativeHumidityAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_relative_humidity_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfThicknessOfRainfallAmountAboveThresholdSumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_thickness_of_rainfall_amount_above_threshold_sum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfThicknessOfRainfallAmountAboveThresholdSumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_thickness_of_rainfall_amount_above_threshold_sum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfUltravioletIndexAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_ultraviolet_index_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfUltravioletIndexAboveThresholdMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_ultraviolet_index_above_threshold_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfVisibilityInAirBelowThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_visibility_in_air_below_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfVisibilityInAirInVicinityBelowThreshold10000M": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_visibility_in_air_in_vicinity_below_threshold_10000_m"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedAboveThreshold": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_above_threshold"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedAboveThresholdMeanPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_above_threshold_mean_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt01h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT01H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt03h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT03H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        },
+        "probabilityOfWindSpeedOfGustAboveThresholdMaximumPt24h": {
+          "type": "Parameter",
+          "observedProperty": {
+            "label": {
+              "en": "probability_of_wind_speed_of_gust_above_threshold_maximum_PT24H"
+            }
+          },
+          "unit": {
+            "symbol": "1"
+          }
+        }
+      },
+      "output_formats": [
+        "CoverageJSON",
+        "GeoJSON"
+      ],
+      "data_queries": {
+        "locations": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-uk/locations",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/geo+json",
+            "title": "Locations document as GeoJSON"
+          }
+        },
+        "position": {
+          "link": {
+            "href": "https://data.hub.api.metoffice.gov.uk/mo-site-specific-blended-probabilistic-forecast/1.0.0/collections/improver-probabilities-spot-uk/position",
+            "hreflang": "en",
+            "rel": "data",
+            "type": "application/prs.coverage+json",
+            "title": "Position document as CoverageJSON"
+          }
+        }
+      }
+    }
+  ]
+}
