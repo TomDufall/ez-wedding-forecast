@@ -16,6 +16,9 @@ jobs:
       WEATHER_LOCATION_LAT: ${{ secrets.WEATHER_LOCATION_LAT }}
       WEATHER_LOCATION_LON: ${{ secrets.WEATHER_LOCATION_LON }}
 
+      permissions:
+        contents: write
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
