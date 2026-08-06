@@ -137,7 +137,7 @@ def update_data_payload(api_key: str, lat: float, lon: float, output_dir: Path) 
     d = {"global_spot_daily": global_spot_daily_data}
     out_path = output_dir / "global_spot_daily.geojson"
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(d, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(d), encoding="utf-8")
     print(f"Wrote global spot daily JSON to {out_path}")
 
 
@@ -158,7 +158,7 @@ def update_bpf_data(
     data = get_bpf_percentiles(api_key, collection, location_id)
     out_path = output_dir / f"{collection}-point.geojson"
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(data), encoding="utf-8")
     print(f"Wrote BPF percentiles JSON to {out_path}")
 
 
